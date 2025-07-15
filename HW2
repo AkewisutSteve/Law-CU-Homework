@@ -1,0 +1,5 @@
+person1 = input("input name: ")
+if len(person1) < 15 :
+    print("SAT Compatible")
+else:
+    print("Not SAT Compatible")

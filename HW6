@@ -1,0 +1,10 @@
+letter = input("type something")
+shift = int(input("type how many shifts"))
+s = ""
+for l in letter:
+    if l.isalpha():
+        a = ord(l) + shift
+        s += chr(a)
+    else:
+        s += l
+print(s)

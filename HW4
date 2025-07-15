@@ -1,0 +1,7 @@
+print("Do you want to go to university?, Where do you want to go to university, What field of study are you interested in?")
+question1 = input("Do you want to go to university?")
+answer = input("Enter yes or no:")
+if answer == "yes":
+    print("You should apply to LLbel at Chula")
+elif answer == "no":
+    print("Too bad!")
